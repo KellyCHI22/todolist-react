@@ -11,7 +11,7 @@
       "id": 2
     },
     {
-      "title": "Learn to use context",
+      "title": "Have lunch",
       "isDone": true,
       "id": 3
     },
@@ -19,6 +19,16 @@
       "title": "Learn to implement auth",
       "isDone": false,
       "id": 4
+    },
+    {
+      "title": "Learn TailwindCSS",
+      "isDone": false,
+      "id": 5
+    },
+    {
+      "title": "Make dinner",
+      "isDone": false,
+      "id": 6
     }
   ]
 }
