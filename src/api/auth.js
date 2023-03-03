@@ -9,6 +9,7 @@ export const login = async ({ username, password }) => {
     });
 
     const { authToken } = data;
+    console.log(data);
 
     // 若 authToken 存在就代表登入成功，就回傳資料以便後續利用。
     // 在回傳資料時，一併整理資料格式，加上 success 屬性做為 flag，
