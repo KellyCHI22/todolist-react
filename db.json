@@ -2,16 +2,16 @@
   "todos": [
     {
       "title": "Learn react-router",
-      "isDone": true,
+      "isDone": false,
       "id": 1
     },
     {
       "title": "Learn to create custom hooks",
-      "isDone": false,
+      "isDone": true,
       "id": 2
     },
     {
-      "title": "Have lunch",
+      "title": "Have dinner",
       "isDone": true,
       "id": 3
     },
@@ -22,7 +22,7 @@
     },
     {
       "title": "Learn TailwindCSS",
-      "isDone": false,
+      "isDone": true,
       "id": 5
     }
   ]
