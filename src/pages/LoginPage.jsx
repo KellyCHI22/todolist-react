@@ -12,7 +12,7 @@ import { login } from '../api/auth';
 import Swal from 'sweetalert2';
 
 const LoginPage = () => {
-  const [username, setUserName] = useState('');
+  const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
   const handleClick = async () => {
@@ -27,6 +27,7 @@ const LoginPage = () => {
       username,
       password,
     });
+
     if (success) {
       localStorage.setItem('authToken', authToken);
       Swal.fire({
@@ -38,6 +39,7 @@ const LoginPage = () => {
       });
       return;
     }
+
     Swal.fire({
       position: 'top',
       title: '登入失敗！',
@@ -59,7 +61,7 @@ const LoginPage = () => {
           label={'帳號'}
           value={username}
           placeholder={'請輸入帳號'}
-          onChange={(nameInputValue) => setUserName(nameInputValue)}
+          onChange={(nameInputValue) => setUsername(nameInputValue)}
         />
       </AuthInputContainer>
 
