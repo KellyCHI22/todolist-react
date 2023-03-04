@@ -2,17 +2,17 @@
   "todos": [
     {
       "title": "Learn to create custom hooks",
-      "isDone": true,
+      "isDone": false,
       "id": 2
     },
     {
       "title": "Learn to implement auth",
-      "isDone": true,
+      "isDone": false,
       "id": 4
     },
     {
       "title": "Learn TailwindCSS",
-      "isDone": true,
+      "isDone": false,
       "id": 5
     }
   ]
